@@ -1,0 +1,11 @@
+Arduino Project #3. Clap/Motion Controlled PC Activator.
+Start Date: March 21st 2018
+Completion Date: Not yet complete.
+Refactoring/Cleaning: Partial.
+
+Device contains microphone, motion sensor and ethernet shield.
+Upon detecting motion or a double clap it will determine if the host is alive, if not it will send a WOL magic packet to the specified PC.
+If the host is alive then it will send a WOL magic packet to the PC in reverse order. This is intercepted by sotware running on the PC which will put it to sleep.
+The afformentioned software is not included in the OS and needs to be created.
+
+This project is also presently incomplete due to high university workload.
